@@ -1,5 +1,14 @@
-#Programado en 3.7.10
-#Versión de numpy: 1.23.3
+"""
+Programado en Python 3.7.10
+Versión de numpy: 1.23.3
+
+Creado por:
+* Guerrero Davalos Fátima Itzel
+* Ochoa Vallejo Itzel
+* Olivera Bautista Fátima Jhareydi
+* Sánchez Figueroa Dafne
+* Silva López Juan José
+"""
 import numpy as np
 
 array = np.array([[3, 4, -10], [9, 2, -1], [7, 8, 5]], dtype="float32")
