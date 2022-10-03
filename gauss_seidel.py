@@ -137,6 +137,7 @@ def process(array, results, iteration_limit: int, tolerance_percentage: float):
         # Determina si se alcanzó el límite de iteraciones
         if iteration == iteration_limit:
             print("Se alcanzó el límite de iteraciones")
+            show_array(array, results)
             show_results(xs)
             return xs
 
@@ -153,6 +154,12 @@ def show_2d_array(array):
 def show_results(xs):
     for r in range(len(xs)):
         print(f"x{r+1}: {xs[r]}")
+
+def show_array(array, resulst):
+    for row in range(len(array)):
+        for column in range(len(array[row])):
+                print((f"+{array[row][column]}" if array[row][column] > 0 else f"+{array[row][column]}"), end="")
+        print(f"={results[row]}")
 
 define_matrix()
 if sort_array():
