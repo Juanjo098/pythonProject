@@ -1,3 +1,5 @@
+#Programado en 3.7.10
+#Versión de numpy: 1.23.3
 import numpy as np
 
 array = np.array([[3, 4, -10], [9, 2, -1], [7, 8, 5]], dtype="float32")
