@@ -131,6 +131,7 @@ def process(array, results, iteration_limit: int, tolerance_percentage: float):
         #Determina si el mayor error aproximado de las icognitas esta por debajo del procentaje de tolerancia de error
         if np.amax(np.absolute(errors)) < tolerance_percentage:
             print(f"Se alcanzó el porcentaje de tolerancia en la iteración: {iteration}")
+            show_array(array,results)
             show_results(xs)
             return xs
 
