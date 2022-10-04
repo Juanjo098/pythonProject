@@ -1,5 +1,5 @@
 """
-Programado en Python 3.7.10
+Programado en Python 3.10.7
 Versión de numpy: 1.23.3
 
 Creado por:
