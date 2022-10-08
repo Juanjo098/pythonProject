@@ -11,12 +11,12 @@ Creado por:
 """
 import numpy as np
 
-#array = np.array([[3, 4, -10], [9, 2, -1], [7, 8, 5]], dtype="float32")
-#results = np.array([-2, 3, 6], dtype="float32")
-array = 0
-results = 0
-iteration_limit = 0
-tolerance_percentage = 0.0
+array = np.array([[40, -5, -10], [-5, 40, -10], [-10, -10, 95]], dtype="float32")
+results = np.array([110, 110, 40], dtype="float32")
+#array = 0
+#results = 0
+iteration_limit = 100
+tolerance_percentage = 1.0
 
 def input_int(promt):
     # Permite ingresar un valor de tipo entero
@@ -194,7 +194,7 @@ def show_array(array, results):
         print(f"= {results[row]}")
     print("")
 
-define_matrix()
+#define_matrix()
 print("Matriz de entrada: ")
 show_array(array, results)
 if sort_array():
